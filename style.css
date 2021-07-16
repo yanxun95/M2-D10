@@ -19,7 +19,7 @@ img.logo {
 }
 
 .highlights-value span {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .highlights-value {
@@ -45,6 +45,17 @@ img.logo {
 
 .card {
   border-radius: 0;
+  width: auto;
+  height: 13.5rem;
+}
+
+.small-img {
+  width: auto;
+  height: 8rem;
+}
+
+.card-body {
+  padding: 0.5rem 0.5rem;
 }
 
 .ori-price-dis-price {
@@ -54,7 +65,6 @@ img.logo {
 }
 
 .game-name {
-  height: 38px;
   font-size: 14px;
   opacity: 1;
   text-align: left;
@@ -101,4 +111,37 @@ img.logo {
 .purple-words {
   font-weight: 700;
   color: purple;
+}
+
+.bg-footer {
+  background-color: #262626;
+}
+
+.contact-us {
+  display: flex;
+  padding: 1rem;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 14px;
+}
+
+.legal {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.language-currency {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #2f2f2f;
+}
+
+.part-of {
+  display: flex;
+  flex-direction: row;
 }
