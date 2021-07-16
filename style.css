@@ -136,13 +136,44 @@ img.logo {
   color: rgba(255, 255, 255, 0.3);
 }
 
+.language-img {
+  display: flex;
+  padding: 1rem;
+}
+
 .language-currency {
   display: flex;
   flex-direction: column;
-  padding: 1rem;
   font-size: 12px;
   color: rgba(255, 255, 255, 0.3);
-  background-color: #2f2f2f;
+  margin-right: auto;
+}
+
+.currency {
+  padding-top: 3px;
+}
+
+.download {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  padding: 0.25rem;
+  border: 3px solid blue;
+  border-radius: 0.5rem;
+  background-color: purple;
+}
+
+.download-icon {
+  align-self: center;
+}
+
+.download-words {
+  display: flex;
+  flex-direction: column;
+}
+
+.for-windows {
+  font-size: 10px;
 }
 
 .part-of {
@@ -166,4 +197,9 @@ img.logo {
 
 .discover-font {
   color: #595959;
+}
+
+.discover-active {
+  color: #86328a;
+  border-bottom: 1px solid #86328a;
 }
