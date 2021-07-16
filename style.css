@@ -1,0 +1,104 @@
+body {
+  background: #d8d8d8;
+}
+
+img.logo {
+  border-radius: 0.5rem;
+}
+
+.logo-color {
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.logo-color .bi {
+  padding-left: 2rem;
+}
+
+.logo-color .bi span {
+  font-style: normal;
+}
+
+.highlights-value span {
+  font-weight: 500;
+}
+
+.highlights-value {
+  border-bottom: 1px solid #bfbfbf;
+}
+
+.carousel-caption {
+  text-align: left;
+  padding-bottom: none;
+  left: 3%;
+}
+
+.carousel-caption h5 {
+  color: white;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 7%;
+}
+
+.card {
+  border-radius: 0;
+}
+
+.ori-price-dis-price {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+}
+
+.game-name {
+  height: 38px;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+  color: #1a1a1a;
+}
+
+.ori-price {
+  display: flex;
+  font-size: 10px;
+  color: #999;
+  text-align: right;
+  font-weight: 600;
+  align-self: flex-end;
+  text-decoration: line-through;
+}
+
+.game-price {
+  display: flex;
+  font-size: 16px;
+  color: #404040;
+  font-weight: 500;
+  text-align: right;
+  align-self: flex-end;
+}
+
+.discount-percent {
+  background: #78387b;
+  font-size: 1rem;
+  color: #fff;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 0.2rem;
+  display: flex;
+  align-items: center;
+}
+
+.we-are-gog-border {
+  align-items: center;
+  border-top: 1px solid #404040;
+  border-bottom: 1px solid #404040;
+  padding: 10px 16px;
+}
+
+.purple-words {
+  font-weight: 700;
+  color: purple;
+}
