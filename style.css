@@ -18,6 +18,10 @@ img.logo {
   font-style: normal;
 }
 
+.navbar {
+  opacity: 0.95;
+}
+
 .highlights-value span {
   font-weight: 600;
 }
@@ -144,4 +148,22 @@ img.logo {
 .part-of {
   display: flex;
   flex-direction: row;
+}
+
+.discover-game-card {
+  width: auto;
+  height: 10.5rem;
+  background-color: #d8d8d8;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+
+.discover-game-img {
+  width: 18.5rem;
+  height: auto;
+}
+
+.discover-font {
+  color: #595959;
 }
