@@ -51,6 +51,7 @@ img.logo {
   border-radius: 0;
   width: auto;
   height: 13.5rem;
+  object-fit: cover;
 }
 
 .small-img {
@@ -103,6 +104,21 @@ img.logo {
   border-radius: 0.2rem;
   display: flex;
   align-items: center;
+}
+
+.featured {
+  width: 100%;
+  height: 460px;
+}
+
+.featured-big-images {
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+}
+
+.featured-small-div {
+  width: 100%;
 }
 
 .we-are-gog-border {
@@ -183,16 +199,25 @@ img.logo {
 
 .discover-game-card {
   width: auto;
-  height: 10.5rem;
+  height: 5.8rem;
   background-color: #d8d8d8;
   border-top: none;
   border-right: none;
   border-left: none;
 }
 
+.card.mb-3 .row.no-gutters {
+  height: 5.2rem;
+}
+
+.card.mb-3 .row.no-gutters .col-md-2 {
+  height: inherit;
+}
+
 .discover-game-img {
-  width: 18.5rem;
-  height: auto;
+  width: 8.5rem;
+  height: inherit;
+  object-fit: cover;
 }
 
 .discover-font {
@@ -202,4 +227,29 @@ img.logo {
 .discover-active {
   color: #86328a;
   border-bottom: 1px solid #86328a;
+}
+
+.col-md-10 .col .card-title {
+  display: flex;
+  text-align: left;
+  font-size: 14px;
+  color: #404040;
+}
+
+.col-md-10.ps-2 {
+  height: inherit;
+}
+
+.row.discover-info {
+  height: inherit;
+}
+
+.discover-group {
+  display: flex;
+  justify-content: flex-end;
+  align-self: center;
+}
+
+.ori-price-dis-price.discover-price {
+  align-self: center;
 }
